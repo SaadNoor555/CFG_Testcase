@@ -4,7 +4,7 @@ from collections import defaultdict
 # using adjacency list representation
 class Node:
     def __init__(self, code):
-        self.body = code
+        self.lines = code
 
 class Graph:
   
